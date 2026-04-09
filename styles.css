@@ -1,16 +1,16 @@
-<html>
-  <head>
-    <link rel="icon" type="image/x-icon" href="https://www.svgrepo.com/show/530309/bird.svg">
-    <title><b>Kinds of birds around the world!<b></title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-      <h1 class="title">Birds around the world</h1>
-      <img src="https://static.vecteezy.com/system/resources/thumbnails/049/201/489/small/colorful-birds-perched-on-a-branch-in-a-lush-green-forest-during-daylight-photo.jpeg">
-      <p id="currentTime"></p>
-      <a href="https://www.natgeokids.com/uk/play-and-win/games/birds-memory/">Game</a>
-      <script src="script.js"></script>
-      <a href="KindsOfBirds.html">Kinds of birds</a>
-      <a href="Birdfood.html">Diet of pet birds</a>
-  </body>
-</html>
+body{
+  padding: 25px;
+  background: LightGreen;
+}
+.title {
+  text-align:: center;
+	color: Purple;
+  font-family: "Google Sans", sans-serif;
+}
+img {
+  scale: 1;
+}
+img:hover{
+  transform: scale(0.8);
+  box-shadow: 0 0 20px blue;
+}
